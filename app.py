@@ -89,7 +89,7 @@ if uploader_file is not None:
 
             with col1:
                 ax.bar(x.index, x.values, color='green')
-                plt.xticks(rotation="90")
+                plt.xticks(rotation='vertical')
                 st.pyplot(fig)
 
             with col2:
