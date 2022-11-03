@@ -110,7 +110,7 @@ if uploader_file is not None:
         fig, ax = plt.subplots()
         ax.barh(most_common_word_df[0], most_common_word_df[1], color='green')
         plt.xlabel("Word Count")
-        plt.xticks(rotation="90")
+        plt.xticks(rotation=90)
         fig.tight_layout()
         st.pyplot(fig)
 
