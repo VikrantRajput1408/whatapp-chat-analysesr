@@ -6,7 +6,7 @@ import helper
 import preprocessor
 
 
-st.set_option('wideMode' , True)
+# st.set_option('wideMode', True)
 st.sidebar.title("WhatsApp Chat Analyser")
 
 uploader_file = st.sidebar.file_uploader("Choose a file")
